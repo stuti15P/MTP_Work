@@ -19,10 +19,10 @@ class Graph
 		unordered_map<unsigned,unsigned> vid_to_vc;
 		vector< unsigned> edges; // Edge-Set
 	        vector<unsigned> edgeType;  //------>	
-		//unordered_map<unsigned, unsigned> VertexLabelMap; // count of a type of vertex label
+		//unordered_map<unsigned, unsigned> VertexLabelMap; // count of a label of vertex label
 		vector<unsigned> VertexLabelVectr; //will save count of a vertex label in the graph.
-		unordered_map<unsigned, unsigned> EdgeLabelMap;  // count of a type of vertex label
-		vector<unsigned> edgeTypeVectr;  //----->
+		//unordered_map<unsigned, unsigned> EdgeLabelMap;  // count of a type of vertex label
+		vector<unsigned> edgeTypeVectr;  //-----> // count the particular edge type in this graph.
 
 		Graph(){
 			gid = 0;
