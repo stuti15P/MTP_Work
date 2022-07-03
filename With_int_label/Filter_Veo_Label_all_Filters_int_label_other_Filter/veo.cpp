@@ -188,7 +188,7 @@ void VEO:: ranking(vector<Graph> &graph_dataset)
 		fFreq<<"graph_dataset[g_ind].edgeType.size() "<<" .......................  "<<graph_dataset[g_ind].edgeType.size()<<endl;
                 for(int edge_ind = 0; edge_ind < graph_dataset[g_ind].edgeType.size(); edge_ind++)
                 {
-                        pair<char, char> edge_pair;
+                        pair<unsigned, unsigned> edge_pair;
                         /*
                         if(graph_dataset[g_ind].edges[edge_ind].first > graph_dataset[g_ind].edges[edge_ind].second)
                                 edge_pair = make_pair(graph_dataset[g_ind].edges[edge_ind].second, graph_dataset[g_ind].edges[edge_ind].first);
